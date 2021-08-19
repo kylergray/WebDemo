@@ -13,10 +13,16 @@ Body {
    text-align: center;
 }
 
+div {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
 h1 {
-  font-weight: 400;
-  font-style: italic;
-  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 h2 {
@@ -36,6 +42,7 @@ a {
   transition:
     ease 0.2s box-shadow,
     ease 0.2s border;
+    margin: 12px;
 }
 
 a:hover {
